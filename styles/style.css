@@ -3,20 +3,35 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    margin: 0 auto;
 }
 
+/* MENU */
+
 .menu {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.menu__content {
     width: 90%;
     max-width: 1140px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 45px auto;
+    align-items: center;
 }
 
-.menu__logo {
+.menu__logo {   
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+
 }
 
 .menu__logo-img {
@@ -32,4 +47,94 @@
 
 .menu__logo-text-detail {
     font-weight: 700;
+}
+
+.menu__mobile-nav {
+    visibility: hidden;
+}
+
+.menu__nav-item {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+    margin-right: 40px;
+}
+
+.menu__button-signin {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0B132A;
+    margin-right: 30px;
+}
+
+.menu__button-signup {
+    font-size: 16px;
+    font-weight: 500;
+    color: #F53855;
+    padding: 13px 45px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+}
+
+/* HERO */
+
+.hero {
+    position: relative;
+    top: 180px;
+    width: 100%;
+}
+
+.hero__content {
+    margin: 0 auto;
+    align-items: center;
+    width: 90%;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero__text {
+    width: 50%;
+}
+
+.hero__title {
+    font-size: 50px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.hero__title-detail {
+    color: #F53838;
+}
+
+.hero__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+    line-height: 30px;
+    margin: 20px 0 50px;
+}
+
+.hero__subtitle-detail {
+    font-weight: 500;
+}
+
+.hero__button {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #F53838;
+    padding: 18px 78px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 10px 27px 4px #F5383859; 
+}
+
+.hero__imgs {
+    width: 50%;
+}
+
+.hero__img {
+    width: 100%;
 }

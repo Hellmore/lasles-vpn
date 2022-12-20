@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasles VPN</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap">
@@ -13,23 +14,44 @@
 </head>
 
 <body>
-    <div class="menu">
-        <div class="menu__logo">
-            <a href="./index.html" class="menu__logo-img"><img src="./images/menu__logo.png"></a>
-            <a href="./index.html" class="menu__logo-text">Lasles<span class="menu__logo-text-detail">VPN</span></a>
+    <section class="menu">
+        <div class="menu__content">
+            <div class="menu__logo">
+                <a href="./index.html" class="menu__logo-img"><img src="./images/menu__logo.png" alt="logo of Lasles VPN"></a>
+                <a href="./index.html" class="menu__logo-text">Lasles<span class="menu__logo-text-detail">VPN</span></a>
+            </div>
+
+            <div class="menu__nav">
+                <a href="#" class="menu__nav-item">About</a>
+                <a href="#" class="menu__nav-item">Features</a>
+                <a href="#" class="menu__nav-item">Pricing</a>
+                <a href="#" class="menu__nav-item">Testimonials</a>
+                <a href="#" class="menu__nav-item">Help</a>
+            </div>
+            <div class="menu__buttons">
+                <a href="#" class="menu__button-signin">Sign In</a>
+                <a href="#" class="menu__button-signup">Sign Up</a>
+            </div>
         </div>
-        <div class="menu__nav">
-            <a href="#" class="menu__nav-item">About</a>
-            <a href="#" class="menu__nav-item">Features</a>
-            <a href="#" class="menu__nav-item">Pricing</a>
-            <a href="#" class="menu__nav-item">Testimonials</a>
-            <a href="#" class="menu__nav-item">Help</a>
+        <div class="menu__mobile-nav">
+            <img class="menu__mobile-nav-img" src="./images/menu__mobile-nav.png" alt="navegation">
         </div>
-        <div class="menu__buttons">
-            <a class="menu__button-signin">Sign In</a>
-            <a class="menu__button-signup">Sign Up</a>
+    </section>
+
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__text">
+                <p class="hero__title">Want anything to be easy with <span class="hero__title-detail">LaslesVPN</span>.</p>
+                <p class="hero__subtitle">Provide a network for all your needs with ease and fun using 
+                    <span class="hero__subtitle-detail"> LaslesVPN </span>discover interesting features from us.</p>
+                <a class="hero__button" href="#">Get Started</a>
+            </div>
+            <div class="hero__imgs">
+                <img class="hero__img" src="./images/hero__img.png">
+            </div>
+            
         </div>
-    </div>
+    </section>
 
 </body>
 </html>
