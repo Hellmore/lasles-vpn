@@ -113,8 +113,24 @@
     }
 
     .sponsor__item {
-        width: 60%;
+        width: 50%;
         margin-bottom: 60px;
+    }
+
+    /* TESTIMONIALS */
+
+    .testimonials__title {
+        font-size: 28px;
+    }
+
+    .testimonials__cards {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .testimonials__card {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
 }
