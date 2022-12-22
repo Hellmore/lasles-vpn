@@ -6,6 +6,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background-color: white;
     }
     
     .menu__content {
@@ -60,6 +61,35 @@
     }
 
     .hero__img {
-        margin-top: 10px;
+        margin-top: 20px;
     }
+
+    /* STATS */
+
+    .stats__content {
+        top: 200px;
+        flex-wrap: wrap;
+    }
+
+    .stats_card {
+       width: 100%;
+
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .stats__content {
+        padding: 45px 0;
+    }
+    
+    .stats__card {
+        width: 100%;
+        padding: 0;
+    }
+
+    .stats__divisor {
+        visibility: hidden;
+    }
+
 }
