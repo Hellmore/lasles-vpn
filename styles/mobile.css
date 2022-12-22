@@ -74,29 +74,9 @@
 
     }
 
-   
-}
+      /* FEATURES */
 
-@media only screen and (max-width:500px) {
-
-    /* STATS */
-    
-    .stats__content {
-        padding: 45px 0;
-    }
-    
-    .stats__card {
-        width: 100%;
-        padding: 0;
-    }
-
-    .stats__divisor {
-        visibility: hidden;
-    }
-
-     /* FEATURES */
-
-     .features__content {
+      .features__content {
         display: flex;
         flex-direction: column-reverse;
 
@@ -124,6 +104,37 @@
     .plans__card {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    /* SPONSORS */
+
+    .sponsors__content {
+        flex-direction: column;
+    }
+
+    .sponsor__item {
+        width: 60%;
+        margin-bottom: 60px;
+    }
+
+}
+
+
+@media only screen and (max-width:500px) {
+
+    /* STATS */
+    
+    .stats__content {
+        padding: 45px 0;
+    }
+    
+    .stats__card {
+        width: 100%;
+        padding: 0;
+    }
+
+    .stats__divisor {
+        visibility: hidden;
     }
 
 }

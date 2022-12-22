@@ -398,6 +398,7 @@
 .locations_content {
     width: 90%;
     max-width: 1140px;
+    padding-bottom: 170px;
 }
 
 .locations__text {
@@ -427,6 +428,25 @@
 }
 
 .location__main-img {
+    width: 100%;
+}
+
+/* SPONSORS */
+
+.sponsors__content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1140px;
+    padding-bottom: 170px;
+}
+
+.sponsor__item {
+    width: calc(20% - 40px);
+}
+
+.sponsor__img {
     width: 100%;
 }
 
