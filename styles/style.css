@@ -116,6 +116,7 @@
     font-size: 50px;
     font-weight: 500;
     color: #0B132A;
+    line-height: 70px;
 }
 
 .hero__title-detail {
@@ -128,6 +129,7 @@
     color: #4F5665;
     line-height: 30px;
     margin: 20px 0 50px;
+    line-height: 30px;
 }
 
 .hero__subtitle-detail {
@@ -183,12 +185,14 @@
     font-size: 25px;
     font-weight: 700;
     color: #0B132A;
+    line-height: 30px;
 }
 
 .stats__subtitle {
     font-size: 20px;
     font-weight: 400;
     color: #4F5665;
+    line-height: 30px;
 }
 
 .stats__divisor {
@@ -213,6 +217,7 @@
     align-items: center;
     position: relative;
     margin-top: 100px;
+    padding-bottom: 100px ;
 }
 
 .features__imgs {
@@ -232,6 +237,7 @@
     font-weight: 500;
     color: #0B132A;
     margin-bottom: 20px;
+    line-height: 50px;
 }
 
 .features__subtitle {
@@ -239,6 +245,7 @@
     font-weight: 400;
     color: #4F5665;
     margin-bottom: 20px;
+    line-height: 30px;
 }
 
 .features__topics
@@ -261,3 +268,167 @@
     margin: 0;
     margin-left: 12px;
 }
+
+/* PLANS */
+
+.plans {
+    background-image: linear-gradient(to bottom, #F8F8F8, #FFFFFF);
+}
+
+.plans__content {
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.plans__text {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 1140px;
+}
+
+.plans__title {
+    font-size: 35px;
+    font-weight: 500;
+    color: #0B132A;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.plans__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+    line-height: 30px;
+    margin-bottom: 60px;    
+}
+
+.plans__cards {
+    width: 90%;
+    max-width: 1140px;
+    display: flex;
+}
+
+.plans__card {
+    width: calc(33.3% - 40px);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.plans__card:hover {
+    border: 2px solid #F53838;
+}
+
+.plans__card-img {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.plans__card-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0B132A;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.plans__card-topics {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.plans__card-topic-img {
+    width: 14px;
+    height: 10px;
+    margin: 0;
+    line-height: 30px;
+}
+
+.plans__card-topic-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4F5665;
+    line-height: 30px;
+}
+
+.plans__card-pricing {
+    font-size: 25px;
+    font-weight: 500;
+    color: #0B132A;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.plans__card-installment {
+    font-size: 25px;
+    font-weight: 500;
+    color: #4F5665;
+    line-height: 30px
+}
+
+.plans__button {
+    font-size: 16px;
+    font-weight: 700;
+    color: #F53838;
+    line-height: 19px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    width: 60%;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px; 
+}
+
+.plans__button:hover {
+    color: #FFFFFF;
+    background-color: #F53838;
+}
+
+/* LOCATIONS */
+
+.locations_content {
+    width: 90%;
+    max-width: 1140px;
+}
+
+.locations__text {
+    text-align: center;
+}
+
+.locations__title {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+
+.locations__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    margin-bottom: 55px;
+}
+
+.locations__imgs {
+    text-align: center;
+    width: 100%;
+    max-width: 1140px;
+}
+
+.location__main-img {
+    width: 100%;
+}
+
+
+

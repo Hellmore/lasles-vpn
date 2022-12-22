@@ -74,27 +74,7 @@
 
     }
 
-    /* FEATURES */
-
-    .features__content {
-        display: flex;
-        flex-direction: column-reverse;
-
-    }
-
-    .features__imgs {
-        width: 90%;
-        margin: 80px auto;
-
-    }
-
-    .features__text {
-        width: 90%;
-    }
-
-    .features__title {
-        font-size: 28px;
-    }
+   
 }
 
 @media only screen and (max-width:500px) {
@@ -112,6 +92,38 @@
 
     .stats__divisor {
         visibility: hidden;
+    }
+
+     /* FEATURES */
+
+     .features__content {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .features__imgs {
+        width: 90%;
+        margin-top: 60px;
+    }
+
+    .features__text {
+        width: 90%;
+    }
+
+    .features__title {
+        font-size: 28px;
+    }
+
+    /* PLANS */
+
+    .plans__cards {
+        flex-direction: column;
+    }
+
+    .plans__card {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
 }
