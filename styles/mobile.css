@@ -33,9 +33,7 @@
 
     /* HERO */
 
-    .hero {
-        top: 130px;
-    }
+    .hero
 
     .hero__content {
         flex-direction: column;
@@ -67,18 +65,42 @@
     /* STATS */
 
     .stats__content {
-        top: 200px;
         flex-wrap: wrap;
+        margin-top: 80px;
     }
 
     .stats_card {
        width: 100%;
 
     }
+
+    /* FEATURES */
+
+    .features__content {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .features__imgs {
+        width: 90%;
+        margin: 80px auto;
+
+    }
+
+    .features__text {
+        width: 90%;
+    }
+
+    .features__title {
+        font-size: 28px;
+    }
 }
 
 @media only screen and (max-width:500px) {
 
+    /* STATS */
+    
     .stats__content {
         padding: 45px 0;
     }
